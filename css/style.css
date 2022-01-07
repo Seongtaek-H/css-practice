@@ -63,3 +63,7 @@
   text-decoration: none;
   color: black;
 }
+.nav {
+  margin-left: auto;
+  margin-right: auto;
+}
