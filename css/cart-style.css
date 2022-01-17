@@ -14,7 +14,6 @@ th {
 .cart-table {
   width: 100%;
   max-width: 700px;
-  margin: auto;
   background: white;
   border-radius: 10px;
 }
@@ -29,4 +28,31 @@ th {
 }
 .cart-table th:nth-child(2) {
   width: 400px;
+}
+.cart-btn {
+  padding: 15px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: coral;
+  color: white;
+  cursor: pointer;
+}
+.cart-btn:hover {
+  background-color: chocolate;
+}
+.cart-btn:focus {
+  background-color: grey;
+}
+.cart-btn:active {
+  background-color: brown;
+}
+.custom-link {
+  text-decoration: none;
+}
+.custom-link:link {
+  color: green;
+}
+.custom-link:visited {
+  color: black;
 }

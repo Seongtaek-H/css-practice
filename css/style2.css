@@ -1,3 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap");
+@font-face {
+  font-family: "이쁜폰트";
+  src: url(../font/NanumSquareR.woff);
+}
 div,
 input,
 textarea {
@@ -6,7 +11,9 @@ textarea {
 
 body {
   margin: 0px;
+  font-family: "이쁜폰트";
 }
+
 .main-background {
   width: 100%;
   height: 500px;
