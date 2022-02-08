@@ -135,6 +135,7 @@ i {
   padding-top: 25px;
   margin-top: 15px;
 }
+
 .shop__container {
   display: flex;
   width: 90%;
@@ -166,6 +167,27 @@ i {
 }
 .overlay-wrap:hover .overlay-black {
   margin-top: 50%;
+}
+.pseudo::after {
+  color: grey;
+  font-size: 15px;
+  content: "감사합니다";
+}
+progress {
+  appearance: none;
+  -webkit-appearance: none;
+  background-color: white;
+  color: red;
+}
+progress::-webkit-progress-inner-element {
+}
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 2px;
+}
+progress::-webkit-progress-value {
+  background-color: red;
+  border-radius: 2px;
 }
 
 @media screen and (max-width: 1200px) {
